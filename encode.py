@@ -1,3 +1,4 @@
+import tensorflow
 import os
 import argparse
 import pickle
@@ -11,8 +12,8 @@ import config
 from encoder.generator_model import Generator
 from encoder.perceptual_model import PerceptualModel, load_images
 #from tensorflow.keras.models import load_model
-from keras.models import load_model
-from keras.applications.resnet50 import preprocess_input
+from tensorflow.keras.models import load_model
+from tensorflow.keras.applications.resnet50 import preprocess_input
 
 
 def split_to_batches(l, n):

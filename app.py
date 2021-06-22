@@ -14,8 +14,8 @@ import dnnlib
 import dnnlib.tflib as tflib
 import pickle
 import PIL.Image
-import cv2
-import argparse
+# import cv2
+# import argparse
 import numpy as np
 import config
 import dnnlib
