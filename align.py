@@ -2,7 +2,7 @@ import os
 import sys
 import bz2
 import argparse
-import keras
+# import keras
 from keras.utils import get_file
 from ffhq_dataset.face_alignment import image_align
 from ffhq_dataset.landmarks_detector import LandmarksDetector
